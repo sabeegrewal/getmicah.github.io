@@ -1,11 +1,13 @@
 - name: Azure EventHubs + Apache Spark Integration
-  description1: I integrated these
+  description1: Integrated Microsoft's high-throughput data ingestion service (EventHubs) with Apache Spark and Spark Streaming. <a href="https://github.com/Azure/azure-event-hubs/tree/SparkAdapter/java/spark-eventhubs" target="_blank">The project is free and open-source.</a> 
 
 - name: Azure Auto Deploy 
-  description1: Created an automatic deployment tool that deployed any application to IaaS virtual machines in Microsoft Azure. This project won the Microsoft Azure Intern Hackathon in 2015.  
+  description1: Created an automatic deployment tool that packaged and deployed generic applications to IaaS virtual machines in Microsoft Azure. 
+  description2: This project won the Microsoft Azure Intern Hackathon in 2015.  
 
 - name: Project Atlas
-  description1: Worked with a group of something or the others
+  description1: About 15 interns (myself included) received $10,000 in funding to create technology that engages with people from all over the world. 
+  description2: Project Atlas was our attempt, and you can learn more by <a href="http://blogs.microsoft.com/jobs/cute-high-tech-cubes-want-to-get-to-know-you/" target="_blank">reading</a> or <a href="https://www.youtube.com/watch?v=7gxuudO8Wyw" target="_blank">watching</a>.  
 
-- name: Solar-powered Brightfield Microscope
-  description1: This microscope could see ecoli (~5 microns). Solor powered, durable, cheap. designed and manufactured. Used in Ntisaw, Cameroon to educated women and children. Here is a photo of it in being used in Cameroon. Actively writing a paper descirbing the process and looking for Mechanical Engineers willing to help in modeling and printing the parts for easy manufacturing.  
+- name: Solar-powered Bright-field Microscope
+  description1: Designed and manufactured a durable, inexpensive, solar-powered bright-field microscope to be used in rural Cameroon to&#58; <ul><li style="padding-top:5px;">&rarr;&nbsp;validate a water distribution and filtraton system being installed by Engineers Without Borders. Achieved by checking if e. coli (~5 microns) was present in filtered water.</li><li style="padding-top:5px;padding-bottom:10px;">&rarr;&nbsp;educate women/children about germ theory of disease and hygiene best practices in after school programs.</li></ul> The microscope has been in Ntisaw, Cameroon for well over a year now. You can see pictures <a href="/projects/microscope_pics" target="_blank">here</a>.<div style="padding-top:10px;padding-bottom:10px;">Inexpensivley resolving bacteria at 5 microns was quite a challenge. I'm currently writing a paper documenting the design and building process.</div><div>I'm also seeking other students to help model and print the microscope to speed up the manufacturing time.</div> 
