@@ -13,27 +13,68 @@ layout: default
     </ul>
 </div>
 <div class="portfolio">
-    <h1>Web Design:</h1>
+    <h1>About:</h1>
+    <p>
     <ul>
-        {% for websites in site.data.websites %}
+        <li>collapsable text </li> 
+        <li>insert and format content for work and research/projects</li> 
+        <li> I'm finishing my B.S. in Electrical and Computer Engineering in Decemeber 2016 and my B.S. in Physics in May 2017 - both at the <a href="http://utexas.edu">University of Texas at Austin</a>. </li>
+        <li>I'm currently applying to Ph.D. programs, and I hope to begin graduate school in Fall 2017.</li> 
+</ul>
+    </p>
+</div>
+<div class="blog">
+    <h1>Research / Projects:</h1>
+    <ul>
+        {% for projects in site.data.projects %}
         <li>
-            <a href="{{ websites.url }}">{{ websites.url }}</a>
+        <span><h2>{{ projects.name}}</h2><span>
+                <ul><li><span><h4>{{ projects.description1}}</h4><span></li></ul>
         </li>
         {% endfor %}
     </ul>
 </div>
 <div class="blog">
-    <h1>Blog Posts:</h1>
+    <h1>Work:</h1>
     <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
+        {% for work in site.data.work %}
+        <li><h2>{{ work.title }} | {{ work.time}}<img src="{{ work.image}}" style="float:right;"></img></h2></li>
+        <li><h3>{{ work.company }}</h3></li>
+        <ul><li><span><h4>{{ work.description }} </h4></span></li></ul>
         {% endfor %}
     </ul>
 </div>
-<div class="music">
-    <h1>Now Playing:</h1>
-    <a href="http://www.last.fm/user/getmicah"><span id="nowPlaying"></span></a>
+<div class="blog">
+    <h1>Teaching:</h1>
+    <ul><li>I have worked as a teaching assistant for <b>one graduate course</b> and <b>two undergraduate courses</b>. I've also been awarded <b>two Teaching Awards</b> from the Cockrell School of Engineering.</li></ul>
+    <ul>
+        <li>
+        <table>
+        <tr>
+            <th>Course</th>
+            <th>Professor</th>
+            <th>Semester</th>
+            <th>Survey</th>
+        </tr>
+        {% for teach in site.data.teach %}
+        <tr>
+            <td><a href="{{ teach.site }}" target="_blank">{{ teach.course }}</a></td>
+            <td>{{ teach.professor}}</td>
+            <td>{{ teach.semester }}</td>
+            <td>{{ teach.survey}}</td>
+        </tr>
+        {% endfor %}
+        </table>
+        </li>
+    </ul>
+</div>
+<div class="blog">
+    <h1>Music:</h1>
+    <ul><li> For the past year or so, some friends and I have been playing music under the name <b>Curtains</b>. You can listen to a recording here:</li><br>
+        <li><iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259173389&amp;color=ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_artwork=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+        <br><br>
+<li>If you like what you hear, feel free to check us out <a href="http://curtains.band">here</a>.</li>
+</ul>
 </div>
 <script src="/assets/js/main.js"></script>
+

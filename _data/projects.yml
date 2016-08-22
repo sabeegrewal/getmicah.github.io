@@ -1,7 +1,11 @@
-- name: Fatso
-  category: theme
-  url: https://github.com/getmicah/fatso
+- name: Azure EventHubs + Apache Spark Integration
+  description1: I integrated these
 
-- name: Beam
-  category: theme
-  url: https://github.com/getmicah/beam
+- name: Azure Auto Deploy 
+  description1: Created an automatic deployment tool that deployed any application to IaaS virtual machines in Microsoft Azure. This project won the Microsoft Azure Intern Hackathon in 2015.  
+
+- name: Project Atlas
+  description1: Worked with a group of something or the others
+
+- name: Solar-powered Brightfield Microscope
+  description1: This microscope could see ecoli (~5 microns). Solor powered, durable, cheap. designed and manufactured. Used in Ntisaw, Cameroon to educated women and children. Here is a photo of it in being used in Cameroon. Actively writing a paper descirbing the process and looking for Mechanical Engineers willing to help in modeling and printing the parts for easy manufacturing.  

@@ -1,0 +1,18 @@
+- course: EE312
+  survey: 4.9/5.0
+  professor: Dr. Craig Chase
+  semester: Fall 2014
+  site: http://www.ece.utexas.edu/undergraduate/courses/312
+
+- course: EE306
+  survey: 4.9/5.0
+  professor: Dr. Yale Patt 
+  semester: Fall 2015
+  site: http://www.ece.utexas.edu/undergraduate/courses/306
+
+- course: EE380L
+  survey: N/A 
+  professor: Dr. Craig Chase
+  semester: Spring 2016
+  site: http://www.ece.utexas.edu/graduate/courses/380L
+
