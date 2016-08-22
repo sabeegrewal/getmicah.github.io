@@ -81,6 +81,27 @@ ul {
 	}
 }
 
+.arrows {
+    a {
+      color: black;
+      text-decoration: none;
+      &:visited {
+        color: $color-link;
+        text-decoration: none;
+      }
+      &:hover {
+        color: $color-link;
+        text-decoration: none;
+        padding-bottom: 1px;
+        border-bottom: 1px solid $color-link;
+      }
+      &:active {
+        color: $color-link;
+        text-decoration: none;
+      }
+    }
+}
+
 .portfolio {
 	padding-bottom: 30px;
 	h1 {

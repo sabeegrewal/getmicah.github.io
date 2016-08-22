@@ -21,6 +21,20 @@
     <link rel="icon" href="/assets/img/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <script type="text/javascript">
+    function expand_collapse(id) {
+        var e = document.getElementById(id);
+        var f = document.getElementById(id+"_arrows");
+        if(e.style.display == 'none'){
+            e.style.display = 'block';
+            f.innerHTML = '&#9650';
+        }
+        else {
+            e.style.display = 'none';
+            f.innerHTML = '&#9660';
+        }
+    }
+    </script>
 </head>
 
 <body>
