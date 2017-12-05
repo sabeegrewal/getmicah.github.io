@@ -11,6 +11,7 @@ The installed systems are only considered successful if the water is clean throu
 -	&rarr;&nbsp; Capable of photo and video capture
 -	&rarr;&nbsp; Inexpensive and easy to reproduce
 <br><br>
+
 In addition to these requirements, the microscope was used in education programs in the village. With a microscope, community members can “see” germs whereas they are invisible with the naked eye. This eliminates the need to inherently trust that the water is contaminated, which helped foster continued support from the community.
 
 You can see the microscope in action <a href="../projects/microscope_pics" target="_blank">here</a>.
