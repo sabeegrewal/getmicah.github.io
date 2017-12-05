@@ -70,7 +70,7 @@ layout: default
       Research Experience:</h1>
     <div id="4" style="display:none;">
       <ul>
-          {% for work in site.data.research %}
+          {% for research in site.data.research %}
           <li><h2>{{ research.title }} | {{ research.time}}<img src="{{ research.image}}" style="float:right;margin-bottom:57px;margin-left:9px;"></img></h2></li>
           <li><h3>{{ research.company }}</h3></li>
           <ul><li><span><h4>{{ research.description1 }} </h4></span></li></ul>
