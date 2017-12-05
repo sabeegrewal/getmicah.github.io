@@ -3,7 +3,7 @@
   time: May 2017 - Present
   company: Microsoft Corporation
   description1: I'm the sole owner of <a href="https://github.com/Azure/azure-event-hubs-spark" target="_blank">this library</a> which integrates Event Hubs with Apache Spark and Databricks.
-  description2: Once the Spark integration is stable, I'll start work on integrating with other systems (not sure which one yet however I personally will be pushing for Beam or Flink).
+  description2: Once the Spark integration is stable, I'll work on integrating with other systems (possibly Beam or Flink).
   image: assets/img/microsoft.png
 
 - title: Software Engineer Intern
@@ -21,6 +21,6 @@
 - title: CPU Design Intern
   time: Summer 2014 - Fall 2014
   company: Intel Corporation
-  description1: Assisted full chip integrators in validation and floor planning for Goldmont achitecture.
-  description2: My main project validated the implementation of "dark silicon" on the chip (i.e. it validated that correct components were (and were not) receiving power at a given time).
+  description1: Assisted full chip integrators in validation and floor planning for the <a href="https://en.wikipedia.org/wiki/Goldmont" target="_blank">Goldmont microachitecture</a>.
+  description2: My main project validated the implementation of "dark silicon" on the chip (i.e. it validated that correct components were (and were not) receiving power for all states).
   image: assets/img/intel.jpg
