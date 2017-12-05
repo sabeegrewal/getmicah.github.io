@@ -1,13 +1,14 @@
 - name: Azure EventHubs + Apache Spark Integration
-  description1: Integrated Microsoft's high-throughput data ingestion service (EventHubs) with Apache Spark and Spark Streaming. <a href="https://github.com/Azure/azure-event-hubs/tree/SparkAdapter/java/spark-eventhubs" target="_blank">The project is free and open-source.</a> 
+  description1: I've done some work integrating Microsoft's high-throughput data ingestion service (EventHubs) with Apache Spark, Spark Streaming, and Structured Streaming.
+  description2: <a href="https://github.com/sabeegrewal/spark-eventhubs-adapter" target="_blank">This</a> is an old receiver-based intergration. <a href="https://github.com/Azure/azure-event-hubs-spark" target="_blank">This</a> is the current iteration of the library which works with Spark Core, Spark Streaming, and Structured Streaming.
 
-- name: Azure Auto Deploy 
-  description1: Created an automatic deployment tool that packaged and deployed generic applications to IaaS virtual machines in Microsoft Azure. 
-  description2: This project won the Microsoft Azure Intern Hackathon in 2015.  
+- name: Azure Auto Deploy
+  description1: Created an automatic deployment tool that packaged and deployed generic applications to IaaS virtual machines in Microsoft Azure.
+  description2: This project won the Microsoft Azure Intern Hackathon in 2015.
 
 - name: Project Atlas
-  description1: About 15 interns (myself included) received $10,000 in funding to create technology that engages with people from all over the world. 
-  description2: Project Atlas was our attempt, and you can learn more by <a href="http://blogs.microsoft.com/jobs/cute-high-tech-cubes-want-to-get-to-know-you/" target="_blank">reading</a> or <a href="https://www.youtube.com/watch?v=7gxuudO8Wyw" target="_blank">watching</a>.  
+  description1: About 15 interns (myself included) received $10,000 in funding to create technology that engages with people from all over the world.
+  description2: Project Atlas was our attempt, and you can learn more by <a href="http://blogs.microsoft.com/jobs/cute-high-tech-cubes-want-to-get-to-know-you/" target="_blank">reading</a> or <a href="https://www.youtube.com/watch?v=7gxuudO8Wyw" target="_blank">watching</a>.
 
 - name: Solar-powered Bright-field Microscope
-  description1: Designed and manufactured a durable, inexpensive, solar-powered bright-field microscope to be used in rural Cameroon to&#58; <ul><li style="padding-top:5px;">&rarr;&nbsp;validate a water distribution and filtraton system being installed by Engineers Without Borders. Achieved by checking if e. coli (~5 microns) was present in filtered water.</li><li style="padding-top:5px;padding-bottom:10px;">&rarr;&nbsp;educate village about germ theory of disease and hygiene best practices in after school programs.</li></ul> The microscope was transported to Ntisaw, Cameroon about two years ago. You can see pictures <a href="/projects/microscope_pics" target="_blank">here</a>. You can read more <a href="http://caee.utexas.edu/news/features/453-simple" target="_blank">here</a>. 
+  description1: Designed and manufactured a durable, inexpensive, solar-powered bright-field microscope to be used in rural Cameroon to&#58; <ul><li style="padding-top:5px;">&rarr;&nbsp;validate a water distribution and filtraton system being installed by Engineers Without Borders. Achieved by checking if e. coli (~5 microns) was present in filtered water.</li><li style="padding-top:5px;padding-bottom:10px;">&rarr;&nbsp;educate village about germ theory of disease and hygiene best practices in after school programs.</li></ul> The microscope was transported to Ntisaw, Cameroon about two years ago. You can see pictures <a href="/projects/microscope_pics" target="_blank">here</a>, read a more detail <a href="/microscope" target="_blank">here</a>, or read UT's coverage <a href="http://caee.utexas.edu/news/features/453-simple" target="_blank">here</a>. 

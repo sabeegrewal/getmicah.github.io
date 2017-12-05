@@ -1,25 +1,26 @@
-- title: Software Engineer Intern
-  time: Summer 2016 
+
+- title: Software Engineer
+  time: May 2017 - Present
   company: Microsoft Corporation
-  description1: Integrated Microsoft's high-throughput data ingestion service (EventHubs) with Apache Spark and Spark Streaming. <a href="https://github.com/sabeegrewal/azure-event-hubs/tree/spark_adapter/java/spark-eventhubs" target="_blank">The project is free and open-source.</a> 
-  image: assets/img/microsoft.png 
+  description1: I'm the sole owner of <a href="https://github.com/Azure/azure-event-hubs-spark" target="_blank">this library</a> which integrates Event Hubs with Apache Spark and Databricks.
+  description2: Once the Spark integration is stable, I'll start work on integrating with other systems (not sure which one yet however I personally will be pushing for Beam or Flink).
+  image: assets/img/microsoft.png
 
 - title: Software Engineer Intern
-  time: Summer 2015 
+  time: Summer 2016
   company: Microsoft Corporation
-  description1: Designed and implemented a user settings microservice allowing user settings to persist across devices. 
-  image: assets/img/microsoft.png 
+  description1: Integrated Microsoft's high-throughput data ingestion service (EventHubs) with Apache Spark and Spark Streaming. <a href="https://github.com/sabeegrewal/spark-eventhubs-adapter" target="_blank">The project is free and open-source.</a>
+  image: assets/img/microsoft.png
 
-- title: CPU Design Intern 
-  time: Summer 2014 - Fall 2014 
-  company: Intel Corporation 
-  description1: Assisted full chip integrators in timing validation and floor planning for Goldmont achitecture 
-  description2: Designed and implemented scripts to validate CPU floorplans and power consumption/connectivity  
+- title: Software Engineer Intern
+  time: Summer 2015
+  company: Microsoft Corporation
+  description1: Designed and implemented a user settings microservice allowing user settings to persist across devices.
+  image: assets/img/microsoft.png
+
+- title: CPU Design Intern
+  time: Summer 2014 - Fall 2014
+  company: Intel Corporation
+  description1: Assisted full chip integrators in validation and floor planning for Goldmont achitecture.
+  description2: My main project validated the implementation of "dark silicon" on the chip (i.e. it validated that correct components were (and were not) receiving power at a given time).
   image: assets/img/intel.jpg
-
-- title: Research Assistant 
-  time: Summer 2013 - Summer 2014 
-  company: University of Texas at Austin 
-  description1: Designed and constructed a solar-powered bright-field microscope for use in rural Cameroon to assess and deliver clean water to developing countries.   
-  image: assets/img/ut.png 
-
